@@ -1,0 +1,43 @@
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.btn {
+  background-color: #43d9be;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-active {
+  background-color: #e36567;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+.update-message {
+  color: red;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.chat-box {
+  height: 55vh;
+  overflow: scroll;
+  background-color: #fefefe;
+}
